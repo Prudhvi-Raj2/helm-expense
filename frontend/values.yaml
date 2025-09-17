@@ -1,0 +1,7 @@
+deployment:
+  imageVersion: 1.2.0
+  replicas: 1
+service:
+  targetPort: 8080
+hpa:
+  maxReplicas: 20

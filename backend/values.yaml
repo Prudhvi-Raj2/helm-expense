@@ -1,0 +1,7 @@
+configMap:
+  DB_HOST: mysql
+deployment:
+  imageVersion: 1.0.0
+  replicas: 1
+service:
+  targetPort: 8080
